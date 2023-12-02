@@ -1,0 +1,35 @@
+
+.contenedor {
+    width: 700px;
+    min-height: 50px;    
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 2px;
+    border: 1px solid rgb(46, 42, 42);
+    margin: 5px;
+    
+}
+
+.checkbox {
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+    margin: 0 15px;
+}
+
+.button {
+    width: 2rem;
+    height: 2rem;
+
+}
+
+.completada {
+    text-decoration: line-through;
+    color: green;
+}
+
+.no-completada {
+    text-decoration: none;
+}
